@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"tsc --pretty --watch\" \"next\""
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "@zeit/next-typescript": "^1.1.1",
+    "concurrently": "^4.0.1"
+  }
+}
