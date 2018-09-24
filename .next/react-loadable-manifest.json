@@ -1,5 +1,5 @@
 {
-  "/Users/apple/Documents/wandee/isomorphic-web/noop": [
+  "/app/noop": [
     {
       "id": "./node_modules/next/dist/client/noop.js",
       "name": "./node_modules/next/dist/client/noop.js",
