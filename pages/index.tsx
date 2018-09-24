@@ -2,6 +2,6 @@ import * as React from 'react'
 
 export default () => {
   return (
-    <div>Index</div>
+    <div id="app">Index</div>
   )
 }
