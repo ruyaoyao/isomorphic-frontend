@@ -1,7 +1,11 @@
 import * as React from 'react'
 
-export default () => {
+const AppComponent = (props) => {
   return (
-    <div id="app">Index</div>
+    <div id="app">
+      {props.children}
+    </div>
   )
 }
+
+export default AppComponent
