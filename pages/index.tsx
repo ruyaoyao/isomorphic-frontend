@@ -1,7 +1,11 @@
 import * as React from 'react'
 
-export default () => {
+import App from '../components/App'
+
+const IndexPage = () => {
   return (
-    <div id="app">Index</div>
+    <App />
   )
 }
+
+export default IndexPage
