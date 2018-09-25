@@ -1,11 +1,15 @@
 import React from 'react'
 
+import { Header, Clear } from './Styled'
+import Logo from '../Logo'
 import Navigator from '../Navigator'
 
 const HeaderComponent = () => (
-  <header>
+  <Header>
+    <Logo />
     <Navigator />
-  </header>
+    <Clear />
+  </Header>
 )
 
 export default HeaderComponent

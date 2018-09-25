@@ -1,15 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 
-const HeaderComponent = () => (
-  <div>
-    <Link href="/">
-      <a>Home</a>
-    </Link>
+import { Navigator } from './Styled'
+
+const NavigatorComponent = () => (
+  <Navigator>
     <Link href="/auth">
       <a>Login</a>
     </Link>
-  </div>
+  </Navigator>
 )
 
-export default HeaderComponent
+export default NavigatorComponent
