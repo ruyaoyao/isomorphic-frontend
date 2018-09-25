@@ -2,12 +2,12 @@ import * as React from 'react'
 
 import App from '../components/App'
 
-const IndexPage = () => {
+const AuthPage = () => {
   return (
     <App>
-      Index page
+      Auth page
     </App>
   )
 }
 
-export default IndexPage
+export default AuthPage

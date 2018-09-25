@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
+    "dev-iso": "tsc && concurrently \"tsc --pretty --watch\" \"node ./dist\\server.js\"",
     "test-w": "jest --watchAll",
     "test": "jest"
   },
